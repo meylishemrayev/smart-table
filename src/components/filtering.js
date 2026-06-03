@@ -30,9 +30,9 @@ export function initFiltering(elements, indexes) {
 
       if (input) input.value = "";
 
-      const fieldName = action.dataset.field;
+      const field = action.dataset.field;
 
-      if (fieldName) state[fieldName] = "";
+      if (field) state[field] = "";
     }
 
     // @todo: #4.5 — отфильтровать данные используя компаратор
