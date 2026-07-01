@@ -25,9 +25,9 @@ function collectState() {
   const rowsPerPage = parseInt(state.rowsPerPage); // приведём количество страниц к числу
   const page = parseInt(state.page ?? 1); // номер страницы по умолчанию 1 и тоже число
 
-  if (state.totalFrom !== undefined || state.totalTo !== undefined) {
-    state.total = [state.totalFrom || "", state.totalTo || ""];
-  }
+  // if (state.totalFrom !== undefined || state.totalTo !== undefined) {
+  //   state.total = [state.totalFrom || "", state.totalTo || ""];
+  // }
 
   return {
     // расширьте существующий return вот так
