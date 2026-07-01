@@ -27,7 +27,7 @@ export function initSorting(columns) {
           // Ищем ту, что находится не в начальном состоянии (предполагаем, что одна)
           field = column.dataset.field; // Сохраняем в переменных поле
           order = column.dataset.value; // и направление сортировки
-          return true;
+          // return true;
         }
       });
     }
